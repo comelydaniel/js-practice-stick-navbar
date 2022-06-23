@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: linear-gradient(to right, rgb(230, 212, 230), #493240);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background: linear-gradient(to right, rgb(230, 212, 230), #493240);
+    padding: 70px 50px 50px 50px;
+}
+
+.intro p {
+    padding: 20px;
+}
+
+header.active {
+    background-color: #573a3a;
+}
+
+header.active-two{
+    background: linear-gradient(to right, rgb(230, 212, 230), #493240);
+}
